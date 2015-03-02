@@ -84,11 +84,10 @@ The program is easy to use. If you have a single .class file, u can simply open 
 
 However if you have references to other obfuscated files in the same project, they will not be properly deobfuscated (nor changes from one file propogated). So if you have a few files in your project (or a .jar file) simply:
 
-1. Unzip the .jar to a temp directory (if your files didn't come in a .jar, skip this step)
-2. Run JDO
-3. Click the '...' button and Add all the class files to the project (including any in sub directories) 
-4. Repeat Step 3 until all class files from the project are listed in the display
-5. Click [Deobfuscate] it should give you a successful message and all of the files will be automatically deobfuscated and overwritten
+1. Run JDO
+2. Click the 'Open' icon and Add all the class files or jar to the project (including any in sub directories) 
+3. Repeat Step 3 until all class files from the project are listed in the display
+4. Click [Save] it should give you a successful message and all of the files will be automatically deobfuscated and overwritten
 
 Note: To specify the name that a method, field or class gets renamed to, simply right click the node in the tree, specify the new name and hit 'Save'. It will turn Blue in the display, this is to indicate that the field will be forced renamed on next deobfuscation. Fields or Methods displayed in Red indicate they will be auto-renamed on the next deobfuscation.
 
@@ -100,3 +99,4 @@ Comments and Suggestions
 Feel free to email any comments or suggestions or bugs or reversing info to me by reversing this:
 moc.tesffoelif (ta) odj
 
+xyuu@xyuu.net
